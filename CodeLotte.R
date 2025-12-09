@@ -143,7 +143,7 @@ ggsubseriesplot(y_ts2)
 acf(y, main = "ACF of Demand", lag.max = 200*7)
 abline(v = seq(24*7, 200*7, by = 24*7), col = "red", lty = 2)  # highlight seasonal lags
 
-# Monthly
+# MONTHLY
 seasonplot(y_ts3, main = "Monthly seasonality")
 ggsubseriesplot(y_ts3)
 acf(y, main = "ACF of Demand", lag.max = 200*30)
