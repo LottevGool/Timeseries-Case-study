@@ -3,7 +3,6 @@ setwd("/Users/laura/Downloads/Master/Time Series/Case Study")
 library(dplyr)
 library(lubridate)
 library(tseries)
-library(urca)
 library(forecast)
 library(bootUR)
 
