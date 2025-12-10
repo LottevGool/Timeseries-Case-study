@@ -4,7 +4,6 @@ setwd("C:/Users/lotte/OneDrive/Documenten/Maastricht University/Year 4/Period 2/
 library(dplyr)
 library(lubridate)
 library(tseries)
-library(urca)
 library(forecast)
 library(bootUR)
 library(vars)
